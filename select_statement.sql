@@ -17,8 +17,10 @@ age,
 FROM school_students.student_demograpic;
 
 #UNIQUE VALUE 
+  
 SELECT DISTINCT gender
-FROM school_students.student_demograpic;
+FROM school_students.student_demograpic; #in hear it only shows uniue values
+  
 
 SELECT DISTINCT first_name,gender
 FROM school_students.student_demograpic;
