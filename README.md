@@ -7,3 +7,4 @@ by using "ALTER" i have added two column name known as f_age refers to fathers a
 
 # select statement
 in this select statement i have selected both the parent details table and the students demographic table and on to that i have particularly selected a seprate colum and i have praticed a PEDMAS in the sql by using AGE as a value in the select statement sql and to find the distinct value i used the DISTINCT function to gent the values for gender it is used to find the unique values and to than i have used for the distinct value in the same time for first_name and gender in that first name was unique value but gender does not show the unique value because in the given select statement was the both for the both it has seprate uniue vale in this case DISTINCT was can't use properly
+ 
