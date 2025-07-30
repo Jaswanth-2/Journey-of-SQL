@@ -12,4 +12,4 @@ in this select statement i have selected both the parent details table and the s
 in the where statement i have used the function called "WHERE" to select the particular value of the table it can be also used to alter functions i have used "AND OR NOT" logical operator in the AND operator there the both logic should be true in the OR operator one data value can be true but in AND NOT where the data value should be opposite to the data fo (example: gender in that i use AND NOT gender='male' it means the outcome will show the female values ) same for the OR NOT statement
 
 # like statement
-in the like statement i have used the
+in the like statement i have used the "LIKE" statement to be a similar in the like atatement i have used two key words"_,%" in this keyword that _ is used after the value if we put this keyword _ it assumes that after the word there is only one character but this keyword % it thinks there can be many of the keyword we can use both keyword at the same time
