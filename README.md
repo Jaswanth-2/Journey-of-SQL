@@ -13,3 +13,6 @@ in the where statement i have used the function called "WHERE" to select the par
 
 # like statement
 in the like statement i have used the "LIKE" statement to be a similar in the like atatement i have used two key words"_,%" in this keyword that _ is used after the value if we put this keyword _ it assumes that after the word there is only one character but this keyword % it thinks there can be many of the keyword we can use both keyword at the same time
+
+# order  by
+in the order by we have used asscending order and desending order for the order i have used age of student for order and select the particular student from that
