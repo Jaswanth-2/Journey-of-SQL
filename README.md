@@ -16,3 +16,6 @@ in the like statement i have used the "LIKE" statement to be a similar in the li
 
 # order  by
 in the order by we have used asscending order and desending order for the order i have used age of student for order and select the particular student from that
+
+# group by
+GROUP BY clause is used to organize rows that have the same values in specified columns into groups. It’s like putting similar items into separate buckets so you can analyze each bucket individually. For example, if you have a table of students and their scores in different subjects, you can use GROUP BY to group the data by each student's name and then calculate things like the total marks or average marks for each student. This is especially useful when you want to perform aggregate operations like SUM(), AVG(), COUNT(), MAX(), or MIN() on grouped data. Essentially, GROUP BY helps you summarize large datasets by categories or groups in a meaningful way.
