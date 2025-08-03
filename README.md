@@ -19,3 +19,7 @@ in the order by we have used asscending order and desending order for the order 
 
 # group by
 GROUP BY clause is used to organize rows that have the same values in specified columns into groups. It’s like putting similar items into separate buckets so you can analyze each bucket individually. For example, if you have a table of students and their scores in different subjects, you can use GROUP BY to group the data by each student's name and then calculate things like the total marks or average marks for each student. This is especially useful when you want to perform aggregate operations like SUM(), AVG(), COUNT(), MAX(), or MIN() on grouped data. Essentially, GROUP BY helps you summarize large datasets by categories or groups in a meaningful way.
+
+# inner joints
+it is used to combine rows from two or more tables based on a related column between them. It only returns the records where the joined fields from both tables have matching values. If there’s no match, that row is excluded from the result. It helps bring together related information — for example, connecting student details with their parents or guardians. Inner Join is ideal when you only want to work with complete records where all linked data exists.
+
