@@ -23,3 +23,7 @@ GROUP BY clause is used to organize rows that have the same values in specified 
 # inner joints
 it is used to combine rows from two or more tables based on a related column between them. It only returns the records where the joined fields from both tables have matching values. If there’s no match, that row is excluded from the result. It helps bring together related information — for example, connecting student details with their parents or guardians. Inner Join is ideal when you only want to work with complete records where all linked data exists.
 
+# left & right joints
+In SQL, LEFT JOIN and RIGHT JOIN are used to combine data from two tables based on a related column, but they differ in which table's data is fully preserved. A LEFT JOIN returns all records from the left table and only the matching records from the right table. If there's no match, the right table's fields show up as NULL. This is useful when you want to list everything from the left table regardless of whether related data exists in the right one. On the other hand, a RIGHT JOIN returns all records from the right table and only the matching ones from the left. When there's no match, the left side appears as NULL. This join is helpful when you want to retain every entry from the right table, even if no matching data exists on the left. Essentially, they are mirror images of each other, and your choice depends on which side's data you want to keep fully visible.
+
+
