@@ -28,3 +28,8 @@ In SQL, LEFT JOIN and RIGHT JOIN are used to combine data from two tables based 
 
 # self joins
 A SELF JOIN is a type of SQL join where a table is joined with itself. This is useful when you want to compare rows within the same table. To make this work, you use table aliases to treat the same table as if it were two separate ones. For example, in a student table, you might want to find pairs of students who share the same age or group. A SELF JOIN helps you match each row with other rows from the same table based on certain conditions. It’s commonly used for hierarchical data (like students and their patners) or for finding similarities or relationships within one dataset.
+
+# union
+The union operator in SQL is used to combine the results of two or more select statements into a single result set. It removes duplicate rows and returns only unique records. Each select must have the same number of columns, in the same order, and with compatible data types. Union is helpful when merging data from different tables or sources that have a similar structure. If you want to include duplicates too, you can use union all instead.
+
+
