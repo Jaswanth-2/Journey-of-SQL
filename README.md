@@ -32,4 +32,5 @@ A SELF JOIN is a type of SQL join where a table is joined with itself. This is u
 # union
 The union operator in SQL is used to combine the results of two or more select statements into a single result set. It removes duplicate rows and returns only unique records. Each select must have the same number of columns, in the same order, and with compatible data types. Union is helpful when merging data from different tables or sources that have a similar structure. If you want to include duplicates too, you can use union all instead.
 
+# case statement
 
