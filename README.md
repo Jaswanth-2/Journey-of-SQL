@@ -38,10 +38,8 @@ The case statement in SQL is used to apply conditional logic directly within que
 # subqueries
 In the given set of SQL subquery questions, we explored how to extract meaningful insights from the school_students database using nested logic. First, we matched students who share the same age as Ishan by comparing against a subquery that fetched his age. We then filtered students whose parents earn above the average parent salary, and also identified the oldest students by comparing each age to the maximum. To find students with siblings, we checked if their IDs appeared in the sibling table. Some subqueries compared parent and guardian attributes—for example, finding students whose fathers are older than all guardians or whose parents earn more than any guardian. We also checked if a student's parent and guardian had the same occupation using a correlated subquery. Another query compared parent salary to the average guardian salary, while one identified students without guardians by checking IDs not present in the guardian table. Finally, we found the second-highest parent salary by excluding the max and selecting the next best. These questions demonstrate how subqueries can dynamically adapt conditions and enhance filtering, comparison, and data relationships
 
-# ctes
-
-
 # windows function
 Window functions perform calculations across a set of table rows that are somehow related to the current row. Unlike GROUP BY, they don't reduce the number of rows they just add an extra column showing something like rank, running total, average in group, or comparisons to other rows.
 
+# ctes
 
