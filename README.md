@@ -44,3 +44,4 @@ Window functions perform calculations across a set of table rows that are someho
 # ctes
 A CTE (Common Table Expression) in SQL is a temporary, named result set that exists only for the duration of a single query. It’s created using the `WITH` keyword and is mainly used to make complex queries easier to read, maintain, and debug by breaking them into smaller, logical steps. A CTE works like a virtual table — you can reference it in the main query as if it were a real table, but it doesn’t store data permanently. For example, you might first use a CTE to calculate the average age of students, and then in the main query, filter only those whose age is greater than that average. This approach improves query clarity, avoids repeating subqueries, and is especially useful in analytical tasks like ranking, aggregations, and hierarchical data processing.
 
+# Temporary table
