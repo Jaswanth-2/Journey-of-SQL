@@ -46,3 +46,5 @@ A CTE (Common Table Expression) in SQL is a temporary, named result set that exi
 
 # Temporary table
 The EMP table in SQL is mainly used for learning, testing, and demonstrating SQL concepts such as SELECT statements, filtering, sorting, joins, aggregation, subqueries, and date functions. It’s not meant for real business use but acts as a practice dataset in training environments.
+
+# short procedure
