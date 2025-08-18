@@ -50,3 +50,5 @@ The EMP table in SQL is mainly used for learning, testing, and demonstrating SQL
 # short procedure
 A short procedure in MySQL is simply a small stored procedure that contains only a few SQL statements, usually focused on a specific task. To create a short procedure, you use the CREATE PROCEDURE statement along with optional parameters. Since MySQL normally ends commands with a semicolon (;), you must change the delimiter temporarily (e.g., to $$) so that MySQL knows where the procedure definition begins and ends. After writing the SQL logic inside the BEGIN … END block, you set the delimiter back to ;. Once created, the procedure can be executed anytime using the CALL procedure_name(parameters); command.
 The purpose of short procedures is to simplify repetitive queries and improve code reusability. For example, instead of writing the same SELECT query again and again (like fetching parents above a certain salary, or students from a particular group), you can create a short procedure once and just call it with parameters whenever needed. This not only saves time but also keeps your database operations clean, organized, and less error-prone.
+
+# triggers
