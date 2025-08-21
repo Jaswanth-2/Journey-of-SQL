@@ -51,8 +51,7 @@ The EMP table in SQL is mainly used for learning, testing, and demonstrating SQL
 A short procedure in MySQL is simply a small stored procedure that contains only a few SQL statements, usually focused on a specific task. To create a short procedure, you use the CREATE PROCEDURE statement along with optional parameters. Since MySQL normally ends commands with a semicolon (;), you must change the delimiter temporarily (e.g., to $$) so that MySQL knows where the procedure definition begins and ends. After writing the SQL logic inside the BEGIN … END block, you set the delimiter back to ;. Once created, the procedure can be executed anytime using the CALL procedure_name(parameters); command.
 The purpose of short procedures is to simplify repetitive queries and improve code reusability. For example, instead of writing the same SELECT query again and again (like fetching parents above a certain salary, or students from a particular group), you can create a short procedure once and just call it with parameters whenever needed. This not only saves time but also keeps your database operations clean, organized, and less error-prone.
 
-# events
-
-
 # triggers
 A trigger in SQL is a special kind of stored procedure that automatically runs (or “fires”) in response to certain events on a table, such as an INSERT, UPDATE, or DELETE operation. Triggers are mainly used to enforce business rules, maintain data integrity, and automate repetitive tasks without needing manual intervention. For example, a trigger can automatically update a student’s age when their date of birth is inserted, log changes into an audit table, or prevent invalid data from being entered. In short, triggers help ensure that the database remains consistent and actions happen automatically when specific changes occur.
+
+# events
