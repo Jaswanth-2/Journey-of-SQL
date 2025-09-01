@@ -1,5 +1,5 @@
 # Journey-of-SQL
-Journey of SQL” is a 30-day hands-on learning project where I explored the fundamentals and advanced features of SQL (Structured Query Language).  Starting from database creation and table design, I practiced core SQL operations including SELECT, INSERT, UPDATE, DELETE, filtering with WHERE, joining tables, grouping data, and more. 
+Journey of SQL” is a 28-day hands-on learning project where I explored the fundamentals and advanced features of SQL (Structured Query Language).  Starting from database creation and table design, I practiced core SQL operations including SELECT, INSERT, UPDATE, DELETE, filtering with WHERE, joining tables, grouping data, and more. 
 
 # database creation
 on the students database i have created a table call student demographic and parent details in that students_demographic i have created a colum s_id which refers to student id,first_name,last_name,age,DOB(date of birth) and by using the "ALTER" is have add another column called gender and the second table i have named as parent details in that i have added father name,mothers name,occupation and salary and using s_id as a "PRIMARY KEY"
