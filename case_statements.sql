@@ -3,7 +3,7 @@ SELECT first_name, age,
     WHEN age <=13 Then 'primary'
     WHEN age <= 14 THEN 'Secondary'
     WHEN age BETWEEN 15 AND 17 THEN 'Higher secondary'
-    ELSE 'UG'
+    ELSE 'UG' 
   END AS Standards
 FROM student_demograpic;
 
